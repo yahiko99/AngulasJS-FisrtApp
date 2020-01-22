@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="app">
+<head>
+	<meta charset="utf-8">
+	<title>APP</title>
+	<script src="angular.min.js"></script>
+	<script src="angular-route.min.js"></script>
+	<script src="app.js"></script>
+</head>
+<body ng-controller="controlador as lista">
+
+<div id="menu">
+<ul>
+<li> <a href="#!">Cajero</a></li>	
+<li> <a href="#!productos">Productos</a></li>	
+</ul>
+ </div>
+
+
+<div ng-view></div>
+
+</body>
+</html>
